@@ -33,9 +33,9 @@ const getLeaveTypeData = (t: any) => [
 ];
 
 const holidays = [
-    { day: '9', month: 'Aug', name: 'Raksha Bandhan', type: 'Full Day', weekday: 'Saturday' },
-    { day: '15', month: 'Aug', name: 'Independence Day', type: 'Full Day', weekday: 'Friday' },
-    { day: '16', month: 'Aug', name: 'Janmashtami', type: 'Full Day', weekday: 'Saturday' }, // Assuming date based on logic
+    { day: '2', month: 'Dec', name: 'UAE National Day', type: 'Full Day', weekday: 'Tuesday' },
+    { day: '3', month: 'Dec', name: 'UAE National Day', type: 'Full Day', weekday: 'Wednesday' },
+    { day: '1', month: 'Jan', name: 'New Year', type: 'Full Day', weekday: 'Thursday' },
 ];
 
 const LeavesPage = () => {
@@ -93,26 +93,26 @@ const LeavesPage = () => {
     const data: LeaveRecord[] = [
         {
             key: '1',
-            name: 'Samantha Paul',
+            name: 'Layla Al Mansoori',
             avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100',
             designation: 'Sr.UI Developer',
             type: t('leavesPage.types.sickLeave'),
-            reason: 'To support my spouse and care...',
-            startDate: 'July 10,2025',
-            endDate: 'July 12,2025',
+            reason: 'Medical appointment followup',
+            startDate: 'Dec 10, 2024',
+            endDate: 'Dec 12, 2024',
             days: 2,
             status: 'Pending',
         },
         {
             key: '2',
-            name: 'Gray Noal',
+            name: 'Hamad Al Kaabi',
             avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100',
             designation: 'React Developer',
             type: t('leavesPage.types.casualLeave'),
-            reason: 'Attending a family function out...',
-            startDate: 'July 14,2025',
-            endDate: 'July 30,2025',
-            days: 15,
+            reason: 'Personal family matters',
+            startDate: 'Dec 15, 2024',
+            endDate: 'Dec 20, 2024',
+            days: 5,
             status: 'Approved',
         },
     ];
