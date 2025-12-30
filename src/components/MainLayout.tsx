@@ -74,7 +74,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
                             />
                             <div className="hidden md:block">
                                 <p className="text-sm font-semibold text-gray-800 dark:text-gray-200">Mohammed Al Mansoori</p>
-                                <p className="text-xs text-gray-500 dark:text-gray-400">brooklyn.simmons@gmail.com</p>
+                                <p className="text-xs text-gray-500 dark:text-gray-400">MohammedAlMansoori@gmail.com</p>
                             </div>
                         </div>
                     </div>
