@@ -47,7 +47,7 @@ const AppContent = () => {
       <Router>
         <MainLayout>
           <Routes>
-            <Route path="/" element={<Navigate to="/leaves" replace />} />
+            <Route path="/" element={<Navigate to="/employees" replace />} />
             {/* <Route path="/leaves" element={<LeavesPage />} /> */}
             <Route path="/employees" element={<EmployeesPage />} />
             <Route path="/employees/new" element={<AddEmployeePage />} />
